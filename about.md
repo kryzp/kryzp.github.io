@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello!
+Ahoj!
 
 My name is Kryštof Przeczek. I've always been passionate about mathematics, computer science, algorithms, physics, graphics, etc... since a very young age. So far, I've worked on various programming projects (most of which you can see over at my GitHub, though unfortunately some have been lost to time).
 
