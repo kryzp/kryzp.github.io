@@ -46,7 +46,7 @@ $$
 \begin{aligned}
 y' &= \frac{1}{EI} \int{M(x) \ \mathrm{d} x} \\
 &= \frac{1}{EI} \left( -\frac{q}{6} x^3 + \frac{qL}{4} x^2 + C_1 x \right) + C_2 \ \text{but} \ C_2 = 0 \ \text{by boundary condition 1.} \\
-y &= \frac{1}{EI} \left( -\frac{q}{24} x^4 + \frac{qL}{12} x^3 + \frac{C_1}{2} x^2 \right) + C_2 \ \text{but} \ C_3 = 0 \ \text{by boundary condition 2.}
+y &= \frac{1}{EI} \left( -\frac{q}{24} x^4 + \frac{qL}{12} x^3 + \frac{C_1}{2} x^2 \right) + C_3 \ \text{but} \ C_3 = 0 \ \text{by boundary condition 2.}
 \end{aligned}
 $$
 
