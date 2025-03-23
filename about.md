@@ -12,6 +12,8 @@ I also really enjoy doing graphics breakdowns and write-ups on computer graphics
 
 Other than that, I like sketching landscapes and animals (birds especially), playing my guitar, talking about how amazing The Last of Us is, or simply listening to music. I also like just building stuff, like when I built my own crossbow (maybe I'll make a blog post on that at some point :p ).
 
+As for the name of the blog, I just really love mapgies, and the number 428 just seemed... right?
+
 Feel free to contact me at <a href="mailto:kprzeczek4@gmail.com">kprzeczek4@gmail.com</a>.
 
 <a href="{{ '/assets/cv.pdf' | relative_url }}" download>Download CV</a>
