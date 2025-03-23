@@ -4,17 +4,23 @@ title: "Demystifying the TBN matrix"
 categories: rendering
 ---
 
-One thing that seemed really abstract to me when I first learned about normal mapping is the TBN matrix. I mean, I kind of understood it, it converted from tangent space into world space, simple enough. It meant that we could take our generic tangent space normal maps, and attach them to whatever surface we wanted.
+If you've ever done graphics programming, you've likely implemented some sort of normal mapping. You will then know that it relies on something known as the "TBN matrix" to magically convert your tangent space normal map textures (the desaturated blue ones) into world space normals (the cooler rainbow ones) to be used in lighting. It was something that seemed really abstract to me when I first learned about it.
+
+I mean, I kind of understood it, it converted from tangent space into world space, simple enough. It meant that we could take our generic tangent space normal maps, and attach them to whatever surface we wanted.
 
 That being said, I'd be lying if that meant I actually had a proper picture for what it was.
 
-I think that a better way to look at it is that it's something that describes what the surface the fragment you're shading looks like, giving you the direction along the surfaces' UV and the direction directly vertically out of the surface.
+If you know a little linear algebra you'll know that an $n$-dimensional matrix can be interpreted as a collection of $n$ column vectors which lay out something known as a "basis". It's a way of writing what "their" coordinate system looks like, if you looked at it from the perspective of "your" coordinate system. If I move one unit along the $x$ axis in their coordinate system, what would that look like in my coordinate system?
+
+Similarly, here we are creating a basis describing what the local "tangent space" looks like at the fragment that we are shading, if viewed from the perspective of world space. How much is one unit moving upwards in tangent space, in world space?
 
 <p style="text-align: center;">
 	<img src="/assets/img/tbn_sphere.png" width="400">
 </p>
 
-Being able to convert world coordinates into a "local" form of space relative to the pixel itself is really helpful for, e.g: converting world space into a uv offset. Since the TBN matrix is "orthonormal", its inverse is its transpose, so converting between the two spaces is super cheap.
+I want to stress now that there *is* a reason why model importers like **[Assimp](https://assimp.org/)**, when told to `aiProcess_CalcTangentSpace`, generate all three components of the TBN matrix for each vertex. While yes, you can technically calculate the third component by just computing the cross product of the first two, this doesn't gurantee that the third component will point in the direction of increasing UV, which is a really useful property to have.
+
+Finally, since the TBN matrix is *orthonormal* (all column vectors are of unit length and all of them are perpendicular to each other), its inverse is its transpose, so moving from and to tangent space is very cheap.
 
 <!-- enable latex -->
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
