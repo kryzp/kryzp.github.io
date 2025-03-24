@@ -3,22 +3,54 @@
 
 $base-font-family: "IBM Plex Serif";
 
-$background-color: #323b43;
-$code-background-color: rgb(46, 44, 53);
-
-$border-color-01: #414452;
-$border-color-02: #74808a;
-$border-color-03: #332d3f;
-
-$brand-color: rgb(215, 206, 206);
-
-$text-color: rgb(246, 231, 231);
-$heading-color: white;
-$site-title-color: white;
-
 $base-font-size: 16px;
 $small-font-size: 12px;
 
-$link-base-color: #f5e98e;
-$link-visited-color: #f5e98e;
-$link-hover-color: #71f095;
+// ---
+
+// this is a colour scheme based off of the colours of the magpie!
+
+$magpie-blue-0: #1a99cc;
+$magpie-blue-1: #025b6d;
+$magpie-blue-2: #184e53;
+$magpie-blue-3: #111847;
+
+$magpie-green-0: #6dbe9e;
+$magpie-green-1: #05926f;
+$magpie-green-2: #125d45;
+$magpie-green-3: #0d2c2e;
+
+$magpie-red-0: #d5958a;
+$magpie-red-1: #a17867;
+$magpie-red-2: #574453;
+$magpie-red-3: #372d36;
+
+$magpie-white-0: white;
+$magpie-white-1: #dee0e8;
+$magpie-white-2: #aea8ac;
+
+$magpie-black-0: #314044;
+$magpie-black-1: #0f2024;
+$magpie-black-2: #05161b;
+
+$magpie-highlight-0: #f5e98e;
+$magpie-highlight-1: #71f095;
+
+// ---
+
+$background-color: $magpie-black-1;
+$code-background-color: $magpie-black-2;
+
+$border-color-01: $magpie-black-0;
+$border-color-02: $magpie-green-0;
+$border-color-03: $magpie-black-0;
+
+$brand-color: $magpie-white-2;
+
+$text-color: $magpie-white-1;
+$heading-color: $magpie-white-0;
+$site-title-color: $magpie-white-0;
+
+$link-base-color: $magpie-highlight-0;
+$link-visited-color: $link-base-color;
+$link-hover-color: $magpie-highlight-1;
