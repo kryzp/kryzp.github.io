@@ -10,7 +10,7 @@ This is a follow-up explaining how my trade optimiser algorithm written in my [f
 
 Essentially, rather than trying to solve for an optimal strategy outright immediately like I was attempting to with my game theory approach, I instead generate $N$ traders for every country that the source country is trading to, all with really stupid initial trades.
 
-A 'trade' is just an array representing the percentage amount of each resource that it will try to buy from the seller, $(s_1, s_2, \cdots, c_n)$. Each trader is assumed to be an 'average' trader of the country, so their 'inventory' is equal to their origin countries resources $(r_1, r_2, \cdots, r_n)$.
+A 'trade' is just an array representing the percentage amount of each resource that it will try to buy from the seller, $(s_1, s_2, \cdots, s_n)$. Each trader is assumed to be an 'average' trader of the country, so their 'inventory' is equal to their origin countries resources $(r_1, r_2, \cdots, r_n)$.
 
 First we then need a way to calculate the 'percieved value' of a resource. In my model, I base this off of the defecit to surplus ratio of that resource. That is, if trader $A$ is trading with country $B$, $B$ places a low value on items that have a high surplus (if $B$ has 1000 iron, but only 10 wood, it would value wood over iron, naturally).
 
