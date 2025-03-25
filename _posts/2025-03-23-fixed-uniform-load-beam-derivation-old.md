@@ -63,7 +63,3 @@ $$
 This also has the benefit that now you know $y(x)$, so you can also calculate the deflection at each point in the beam.
 
 Now you can proceed as normal, most likely calculating the maximum moment applied to the beam.
-
-<!-- enable latex -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-<script type="text/javascript">MathJax={tex:{inlineMath:[['$','$']]}};</script>

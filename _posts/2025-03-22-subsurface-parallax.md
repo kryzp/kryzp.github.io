@@ -46,7 +46,3 @@ float2 subsurfaceParallax(float2 uv, float3 viewDir, float eta, float depth)
 {% endhighlight %}
 
 We can then use this to sample our texture with the new UV coordinates as usual.
-
-<!-- enable latex -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-<script type="text/javascript">MathJax={tex:{inlineMath:[['$','$']]}};</script>

@@ -4,7 +4,7 @@ title: "First Hackathon"
 categories: updates
 ---
 
-So last weekend I had the wonderful opportunity to participate in SotonHack 2025, a 24-hour long hackathon hosted by my university's Electronics and Computer Science department. We got to pick between two themes,
+So last weekend I had the wonderful opportunity to participate in SotonHack 2025 with some of my friends, a 24-hour long hackathon hosted by my university's Electronics and Computer Science department. We got to pick between two themes,
 
 1. Build an app that would solve a problem posed to people in the olden days (could be the 1600's, Rome, Ancient Greece, Victorian England, etc...).
 2. Build an app that helps "shape a securer tomorrow" (the second theme was being sponsored by a seperate but closely intertwined society focusing on cyber security).
@@ -21,17 +21,7 @@ To cut to the chase: we won second place. Here's how our app worked,
 
 We used Python for it with some facial recognition libraries and Tkinter for the UI. The performance was laughably slow ("12 frames per year") due to some poorly written multithreading, but whatever it's a proof of concept.
 
-The other projects showcased were also really, really great and funny.
-
-My particular favourite (and I believe what won first place in theme 1.) is a group of people that wrote an equivalent of the SEAtS app (an app the university uses to track attendance to lectures by having you write a unique code generated per lecture as proof of attendance, easily bypassed though since someone can just write the code in a groupchat).
-
-It used AI-generated medieval paintings to encode a hidden unique code that you could scan to 'check-in'. It even ranked everyone on a global leaderboard with titles depending on their attendance (if you had >90% attendance you'd become a noble, and if you had <10% you would literally just be pronounced dead).
-
-And that was it! We won second place in the competition and went on with our lives content that we perfectly executed our first ever hackathon.
-
----
-
-Ok now that that's over lets talk what actually happened. **IF** I'm being honest it was kind of a disaster in the first half. We were initially going to do the first topic, and were stuck between three ideas,
+However, that wasn't our first idea. **IF** I'm being honest it was kind of a disaster in the first half. We were initially going to do the first topic, and were stuck between three ideas,
 
 1. Napoleonic-era battle simulator, you're given a fixed amount of cavalry / artillery which can move at a certain speed and you need to beat increasingly bigger armies controlled by AI.
 2. Victorian-era trade optimiser: Given some amount of countries with a certain amount of resources (positive is a surplus, negative is a defecit), what is the optimal trade that each country should be doing (e.g: trading 1.5 wood and 0.1 steel for 0.9 coal) for each other country to minimise their defecit using their surplus.
@@ -45,7 +35,7 @@ Spoiler, everything went wrong. I was working fine on the project since I knew w
 
 My role was the backend algorithm that actually found the maximum possible trade. My idea was to use game theory. For $n$ resources there's going to be $n^2$ possible trades that could occur between a buyer and a seller, so what's the best possible strategy for the buyer to maximise their earnings?
 
-That sounds like it would work *in theory*, but the problem I didn't forsee for some reason is that not only is this incredibly hard to do for an abstract number of resources, we also aren't accounting for all the *other sellers* that the buyers being sold to is actively also trading with, which might influence how it percieves the value of each resource it's buying, which influences what the optimal trade it. It felt like I was both under and over-complicating things. I just couldn't get it to work, and sat at the whiteboard with my mind blank.
+That sounds like it would work, but the problem I didn't forsee for some reason is that not only is this incredibly hard to do for an abstract number of resources, we also aren't accounting for all the *other sellers* that the buyers being sold to is actively also trading with, which might influence how it percieves the value of each resource it's buying, which influences what the optimal trade it. It felt like I was both under and over-complicating things. I just couldn't get it to work, and sat at the whiteboard with my mind blank.
 
 I'll spare you the details but at around 10pm we ultimately just decided to move away from the Victorian trade optimiser since I couldn't get the algorithm to work, which was for the better anyway since more of us were familiar with Python, TKinter, and facial recognition libraries.
 
@@ -53,12 +43,12 @@ However, I was still super annoyed I couldn't get it to work. It felt like I was
 
 Of course, by then it was too late and we had fully pivoted to the privacy app instead, which was for the better. I really shouldn't have been so insistent and I take most of the blame for us being so off track. That being said, I'm really damn happy that I got the algorithm working eventually haha.
 
----
+The other projects showcased were also really, really great and funny.
+
+My particular favourite (and I believe what won first place in theme 1.) is a group of people that wrote an equivalent of the SEAtS app (an app the university uses to track attendance to lectures by having you write a unique code generated per lecture as proof of attendance, easily bypassed though since someone can just write the code in a groupchat).
+
+It used AI-generated medieval paintings to encode a hidden unique code that you could scan to 'check-in'. It even ranked everyone on a global leaderboard with titles depending on their attendance (if you had >90% attendance you'd become a noble, and if you had <10% you would literally just be pronounced dead).
 
 Overall though, even if it was pretty rocky, I'm really glad we did it. While it was super intensive and stressful, it was also really nice to just sit down, talk with friends, and hone my teamwork skills. The programming especially was very different from what I'm used to working on solo projects.
 
 Excited for the next one already :)
-
-<!-- enable latex -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-<script type="text/javascript">MathJax={tex:{inlineMath:[['$','$']]}};</script>

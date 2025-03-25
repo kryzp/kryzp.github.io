@@ -23,7 +23,3 @@ And that's really the way I think people should look at this matrix, it's a math
 I want to stress now that there is a reason why model importers like **[Assimp](https://assimp.org/)**, when told to `aiProcess_CalcTangentSpace`, generate all three components of the TBN matrix for each vertex. While yes, you can technically calculate the third component by just computing the cross product of the first two, this doesn't gurantee that the third component will point in the direction of increasing UV, which is a really useful property to have.
 
 Finally, since the TBN matrix is *orthonormal* (all column vectors are of unit length and all of them are perpendicular to each other), its inverse is its transpose, so moving from and to tangent space is very cheap.
-
-<!-- enable latex -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-<script type="text/javascript">MathJax={tex:{inlineMath:[['$','$']]}};</script>

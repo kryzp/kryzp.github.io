@@ -8,6 +8,9 @@ This is a follow-up explaining how my trade optimiser algorithm written in my [f
 
 > Given some amount of countries with a certain amount of resources (positive is a surplus, negative is a defecit), what is the optimal trade that each country should be doing (e.g: trading 1.5 wood and 0.1 steel for 0.9 coal) for each other country to minimise their defecit using their surplus.
 
+**This is currently a placeholder**.
+
+<!--
 Essentially, rather than trying to solve for an optimal strategy outright immediately like I was attempting to with my game theory approach, I instead generate $N$ traders for every country that the source country is trading to, all with really stupid initial trades.
 
 A 'trade' is just an array representing the percentage amount of each resource that it will try to buy from the seller, $(s_1, s_2, \cdots, s_n)$. Each trader is assumed to be an 'average' trader of the country, so their 'inventory' is equal to their origin countries resources $(r_1, r_2, \cdots, r_n)$.
@@ -25,7 +28,7 @@ This ensures that there is *at least one* resource that is in an 'internal defec
 Moving on, since either side views the trade as being of equal value, we can derive the following for a trader $A$ making a deal with country $B$,
 
 $$
-P_B(k) \cdot t_k = P_A(k) \cdot s_k
+\sum_{k=1}^{n}{P_B(k) \cdot t_k} = \sum_{k=1}^{n}{P_A(k) \cdot s_k}
 $$
 
 Where $P_X(k)$ is the percieved value function of resource $k$ by $X$, and $t_k$ is the percentage of $A$'s goods it's going to sell to $B$ to get back what it wants (similar to $s_k$ but in reverse),
@@ -70,7 +73,4 @@ I believe that this does have the downside that we could land on a local maximum
 As far as I know, this algorithm doesn't exist anywhere else, but I might be wrong. Let me know if something similar does exist.
 
 It's been a lot of fun figuring this all out, and while I might not have got to complete it on time before we moved onto something else for the hackathon, I'm happy I figured it out later on regardless :).
-
-<!-- enable latex -->
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-<script type="text/javascript">MathJax={tex:{inlineMath:[['$','$']]}};</script>
+-->

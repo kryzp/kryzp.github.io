@@ -14,3 +14,25 @@ del {
 hr {
     color: $border-color-01;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.post-content p a {
+    background-image: linear-gradient($magpie-highlight-0, $magpie-highlight-0);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: all cubic-bezier(0.0, 0.5, 0.0, 1.0) 0.3s;
+}
+
+.post-content p a:hover,
+.post-content p a:focus {
+    background-image: linear-gradient($magpie-highlight-1, $magpie-highlight-1);
+    background-size: 100% 1px;
+}
