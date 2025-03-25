@@ -50,11 +50,7 @@ Remember that there is an artificial limit that $T_k$ cannot be greater than $r_
 So the amount of goods the trader is going to have by the end of the transaction, $r_k'$ is,
 
 $$
-\begin{aligned}
-r_k' &= T_k - S_k = s_k r_k \cdot \frac{P_A(k)}{P_B(k)} - s_k r_k \\
-\\
-r_k' &= \left[ s_k \left( \frac{P_A(k)}{P_B(k)} - 1 \right) \right] \cdot r_k
-\end{aligned}
+r_k' &= T_k - S_k = s_k r_k \cdot \frac{P_A(k)}{P_B(k)} - s_k r_k = \left[ s_k \left( \frac{P_A(k)}{P_B(k)} - 1 \right) \right] \cdot r_k
 $$
 
 For instance, one trader could have a randomly generated trade of 100 $r_1$, and nothing else. Then, they do this trade with their destination country and get back 1200 $r_2$. The country decides, like explained above, that 1 of the traders $r_1$ is worth 12 of its $r_2$, but the trader doesn't know this until the trade happens.
