@@ -60,9 +60,9 @@ minima:
     - title: Github
       icon: github
       url: "https://github.com/kryzp"
-    - title: Twitter
-      icon: x-twitter
-      url: "https://x.com/_krysprz"
+    - title: Bluesky
+      icon: bluesky
+      url: "https://bsky.app/profile/kryzp4.bsky.social"
     - title: Tumblr
       icon: tumblr
       url: "https://www.tumblr.com/blog/428-magpies"
