@@ -1,3 +1,9 @@
+
+# categories so i dont forget
+#  - [rendering] for computer graphics stuff
+#  - [physics] for physics stuff
+#  - [updates] for general updates to stuff
+
 title: 428 Magpies
 author:
   name: Kryštof Przeczek
@@ -6,7 +12,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  A blog mostly focused on computer graphics and physics related... stuff.
+  A blog mostly focused on thoughts, computer graphics and physics related... stuff.
 
 remote_theme: jekyll/minima
 

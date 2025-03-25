@@ -17,16 +17,3 @@ As for the name of the blog, I just really love mapgies, and the number 428 just
 Feel free to contact me at <a href="mailto:kprzeczek4@gmail.com">kprzeczek4@gmail.com</a>.
 
 <a href="{{ '/assets/cv.pdf' | relative_url }}" download>Download CV</a>
-
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
--->

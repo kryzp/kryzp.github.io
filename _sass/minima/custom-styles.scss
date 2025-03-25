@@ -3,12 +3,14 @@ mjx-container {
     z-index: -1 !important;
 }
 
-/*
-strong {
+em, i {
     color: $magpie-red-0;
 }
-*/
 
 del {
     color: $magpie-red-2;
+}
+
+hr {
+    color: $border-color-01;
 }
