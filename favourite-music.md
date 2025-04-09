@@ -28,5 +28,5 @@ None of these lists are in any particular order.
 - Toby Fox
 - Gustavo Santaolalla
 - Andrew Prahlow
-- C148
+- C418
 - Sabaton
