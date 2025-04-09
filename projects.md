@@ -13,7 +13,7 @@ Fully-custom 3D Vulkan Renderer with and extensive Vulkan abstraction layer, int
 A framework for creating 2D games inspired by FNA/MonoGame, written in C++ using the SDL and OpenGL libraries. It features its own custom maths library and container implementations, and handles basic asset loading/unloading, entity management, input and event handling, and rendering.
 
 ### [Path Tracer](https://github.com/kryzp/pathtracer)
-Simple path tracer based on the raytracing in one weekend series, it traces multiple rays from the cameras view source position accounting for surface properties, which it then uses to create a final output image.
+Physically-based path tracer capable of metallic, lambertian and refractive materials.
 
 ### [2D Finite-Element Solver](https://github.com/kryzp/simple-finite-element-solver)
 Given a set of 2D beams of different materials and shapes inter-connected between each other, a set of input forces and boundary-conditions, it forms a stiffness matrix which it uses to form a linear equation that is then be solved for the deflection of each point.
@@ -26,10 +26,7 @@ I wrote this game engine for my Computer Science NEA. I'm glad I did it, and its
 
 The renderer maintains a global state and builds pipelines on the fly (which isn't a bad thing but maintaining global state like that isn't exactly great). It was incredibly messy to use and shader buffers working was what could only be called a miracle. It was inextensible, and finding bugs was a nightmare (didn't help I also made my own maths library and couldn't figure out how to get the data to align properly, so at any point I had a rendering issue it could have equally come from ten seperate different things). Good times.
 
-When I started [Lilythorn](https://github.com/kryzp/lilythorn), I used the rendering backend from this as a "base" to start from, though it has been pretty much completely re-written by this point.
-
-### [Pathtracer](https://github.com/kryzp/pathtracer)
-My first attempt at a simple pathtracer. Exports to PPM.
+When I started [Magpie](https://github.com/kryzp/magpie), I used the rendering backend from this as a "base" to start from, though it has been pretty much completely re-written by this point.
 
 ### [Advent of Code](https://github.com/kryzp/advent-of-code)
 My solutions to Advent of Code! I have yet to do 2024 and 2025...
