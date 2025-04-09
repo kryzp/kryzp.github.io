@@ -3,8 +3,10 @@
 #  - [rendering] for computer graphics stuff
 #  - [physics] for physics stuff
 #  - [updates] for stuff that happens
-#  - [engine] for i guess entity and tools posts?
+#  - [engine] for engine and tools posts
+#  - [gamedev] for game development stuff
 #  - [algorithms] for pure compsci stuff
+#  - [maths] for maths
 #  - [personal] for personal stuff and thoughts
 
 title: 428 Magpies
@@ -42,6 +44,7 @@ minima:
   nav_pages:
     - about.md
     - projects.md
+    - portfolio.md
 
   # Set to `true` to show excerpts on the homepage.
   show_excerpts: false

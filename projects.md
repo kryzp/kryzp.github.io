@@ -6,8 +6,8 @@ permalink: /projects/
 
 This is a sort-of complete list of things I'd label as projects. The more "notable" things are also on my CV.
 
-### [Lilythorn](https://github.com/kryzp/lilythorn)
-A physically-based rendering engine implemented via Vulkan and SDL3, using a hybrid forward/deferred clustered rendering system. Integrated Assimp for model loading, in addition to general resource management of textures, shaders, buffers, etc... which all ties into the bindless material system. Has support for both point lights and directional lights with optional shadowmapping. Built a custom Vulkan abstraction layer to simplify resource handling, in addition to custom container types. Also designed with cross-platform compatibility using MoltenVK on macOS in mind. Additionally, has other more specific features, such as GPGPU-driven particle systems, volumetrics, and realistic water based on the fourier series of real ocean waves.
+### [Magpie](https://github.com/kryzp/magpie)
+Fully-custom 3D Vulkan Renderer with and extensive Vulkan abstraction layer, integrated model loading, a physically based material system, asset management and more.
 
 ### [Leviathan](https://github.com/kryzp/leviathan)
 A framework for creating 2D games inspired by FNA/MonoGame, written in C++ using the SDL and OpenGL libraries. It features its own custom maths library and container implementations, and handles basic asset loading/unloading, entity management, input and event handling, and rendering.
