@@ -11,7 +11,9 @@ So last weekend I had the wonderful opportunity to participate in SotonHack 2025
 
 We eventually settled on the second theme, and built an app focused on tackling the risk of 'shouldering' - when unauthorised individuals can 'look over your shouler' where you can't see them and watch you e.g: input your pin code. It could also be used as a backup layer of security, like if you left your computer unlocked by accident when you left to go pick up your coffee at a cafe.
 
-To cut to the chase: we won second place. Here's how our app worked,
+To cut to the chase: we won second place. Here's how our app worked.
+
+### How did it work
 
 - It maintains an internal whitelist of 'authorized' face encodings which can be assigned a name and registered / removed at will.
 - The app then perpetually runs in the background, periodically checking the webcam for all the faces that it can find.
@@ -20,6 +22,8 @@ To cut to the chase: we won second place. Here's how our app worked,
 - Finally as a failsafe, there is a secret key combination can force you out of it, and it isn't `alt-f4`.
 
 We used Python for it with some facial recognition libraries and Tkinter for the UI. The performance was laughably slow ("12 frames per year") due to some poorly written multithreading, but whatever it's a proof of concept.
+
+### The whole story
 
 However, that wasn't our first idea. **IF** I'm being honest it was kind of a disaster in the first half. We were initially going to do the first topic, and were stuck between three ideas,
 
@@ -33,6 +37,8 @@ We decided on doing the Victorian trade optimiser since it seemed the most compu
 
 Spoiler, everything went wrong. I was working fine on the project since I knew what the library was, and wrote up a basic main menu, but nobody else knew how to use it. We were kinda just walking on ice, if that makes any sense.
 
+### Problems
+
 My role was the backend algorithm that actually found the maximum possible trade. My idea was to use game theory. For $n$ resources there's going to be $n^2$ possible trades that could occur between a buyer and a seller, so what's the best possible strategy for the buyer to maximise their earnings?
 
 That sounds like it would work, but the problem I didn't forsee for some reason is that not only is this incredibly hard to do for an abstract number of resources, we also aren't accounting for all the *other sellers* that the buyers being sold to is actively also trading with, which might influence how it percieves the value of each resource it's buying, which influences what the optimal trade it. It felt like I was both under and over-complicating things. I just couldn't get it to work, and sat at the whiteboard with my mind blank.
@@ -42,6 +48,8 @@ I'll spare you the details but at around 10pm we ultimately just decided to move
 However, I was still super annoyed I couldn't get it to work. It felt like I was just missing one piece of the puzzle and it would all fall into place. Well, eventually out of sheer frustration, I managed to get the Victorian trade optimiser algorithm working using Monte Carlo sampling. [Here's how it works]({% post_url 2025-03-24-victorian-trade-algorithm %}).
 
 Of course, by then it was too late and we had fully pivoted to the privacy app instead, which was for the better. I really shouldn't have been so insistent and I take most of the blame for us being so off track. That being said, I'm really damn happy that I got the algorithm working eventually haha.
+
+### Fin.
 
 The other projects showcased were also really, really great and funny.
 

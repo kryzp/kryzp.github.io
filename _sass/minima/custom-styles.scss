@@ -1,14 +1,33 @@
 
+.site-title {
+    font-weight: regular;
+}
+
+.columned-list {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+/*
+.wrapper {
+    max-width: 1000px;
+}
+*/
+
 mjx-container {
     z-index: -1 !important;
 }
 
 em, i {
-    color: $magpie-red-0;
+    color: $text-italic-and-bold;
 }
 
 del {
-    color: $magpie-red-2;
+    color: $text-strike-through;
 }
 
 hr {
@@ -24,7 +43,7 @@ a:hover, a:focus {
 }
 
 .post-content p a {
-    background-image: linear-gradient($magpie-highlight-0, $magpie-highlight-0);
+    background-image: linear-gradient($link-base-color, $link-base-color);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 1px;
@@ -33,6 +52,10 @@ a:hover, a:focus {
 
 .post-content p a:hover,
 .post-content p a:focus {
-    background-image: linear-gradient($magpie-highlight-1, $magpie-highlight-1);
+    background-image: linear-gradient($link-hover-color, $link-hover-color);
     background-size: 100% 1px;
+}
+
+html {
+    overscroll-behavior-y: none;
 }

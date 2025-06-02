@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Demystifying the TBN matrix"
-categories: rendering
+categories: graphics
 ---
 
 If you've ever done graphics programming, you've likely implemented some sort of normal mapping. You will then know that it relies on something known as the *TBN matrix* to magically convert your tangent space normal map textures (the desaturated blue ones) into world space normals (the cooler rainbow ones) to be used in lighting. It was something that seemed really abstract to me when I first learned about it.

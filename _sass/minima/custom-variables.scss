@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100&family=IBM+Plex+Serif:wght@100;400;700&display=swap");
 
 $base-font-family: "IBM Plex Serif";
+$code-font-family: "IBM Plex Mono";
 
-$base-font-size: 16px;
+$base-font-size: 17px;
 $small-font-size: 12px;
 
 // ---
@@ -36,7 +37,30 @@ $magpie-black-2: #05161b;
 $magpie-highlight-0: #f5e98e;
 $magpie-highlight-1: #11f075;
 
-// ---
+/*
+$background-color: #3b2b2e;
+$code-background-color: #2a1b1e;
+
+$border-color-01: #4d3838;
+$border-color-02: #a77b7b;
+$border-color-03: $background-color;
+
+$brand-color: white;
+
+$text-color: #fdf0fd;
+$heading-color: white;
+$site-title-color: white;
+$text-italic-and-bold: #e3b9ca;
+$text-strike-through: #ad727f;
+
+$link-base-color: #f1e4b7;
+$link-hover-color: #fef7e7;
+
+$link-visited-color: $link-base-color;
+*/
+
+$text-italic-and-bold: #e3b9ca;
+$text-strike-through: #ad727f;
 
 $background-color: $magpie-black-1;
 $code-background-color: $magpie-black-2;

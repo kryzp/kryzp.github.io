@@ -4,7 +4,7 @@ title: "How The Last of Us Changed Storytelling"
 categories: personal
 ---
 
-A while ago I wrote a script for a video I wanted to make about The Last of Us. This was right after, and I think it tells a lot about what I think about the game if within the first week I decide that I'm going to write and record a 30 minute long video about how much I love the game.
+A while ago I wrote a script for a video I wanted to make about The Last of Us. This was right after finishing my first playthrough, and I think it tells a lot about what I think about the game if within the first week I decide that I'm going to write and record a 30 minute long video about how much I love the game.
 
 Anyway, I never got around to doing that, mostly because I'm pretty self-concious about recording myself in the paper thin walls of my student accomodation. Regardless, I'm still super happy with what I wrote so here it is.
 
