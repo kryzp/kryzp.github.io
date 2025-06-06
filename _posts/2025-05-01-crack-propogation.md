@@ -45,7 +45,7 @@ $$
 And then add the corresponding vectors to the force accumulator $\mathbf{F}$ for both points. Then, we shrink the springs natural length to emulate drying,
 
 $$
-L_{n+1} = \text{lerp} \left( L_n, \ \alpha L_0, \ s \right)
+L_{n+1} = L_n + (\alpha L_0 - L_n) (s \cdot \Delta{t})
 $$
 
 You could use multiple different models for how the natural length shrinks over time but this is the one I chose. Making sure the spring length is properly capped is crucial to preventing the simulation from completely collapsing into itself.
