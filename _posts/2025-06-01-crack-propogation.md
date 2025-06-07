@@ -12,7 +12,7 @@ The basic idea is that you create a triangular mesh of points, with the edges be
 
 Each point has a position $\mathbf{x}$, velocity $\mathbf{v}$, sum of forces $\mathbf{F}$, mass $m$, and a toggle to determine if it's fixed or not.
 
-Each spring has a natural length $L_i$ ($i$ is the current iteration), a spring constant $k$, a breaking strain $\varepsilon_T$, and a toggle to determine if it's dead.
+Each spring has a natural length $L$, a spring constant $k$, a breaking strain $\varepsilon_T$, and a toggle to determine if it's dead.
 
 Finally the simulation itself has a couple of parameters,
  - Minimum spring length factor $\alpha$

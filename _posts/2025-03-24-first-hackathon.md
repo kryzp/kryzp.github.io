@@ -11,11 +11,11 @@ So last weekend I had the wonderful opportunity to participate in SotonHack 2025
 
 We eventually settled on the second theme, and built an app focused on tackling the risk of 'shouldering' - when unauthorised individuals can 'look over your shouler' where you can't see them and watch you e.g: input your pin code. It could also be used as a backup layer of security, like if you left your computer unlocked by accident when you left to go pick up your coffee at a cafe.
 
-To cut to the chase: we won second place. Here's how our app worked.
+To cut to the chase: we won second place.
 
 ### How did it work
 
-- It maintains an internal whitelist of 'authorized' face encodings which can be assigned a name and registered / removed at will.
+- We maintain an internal whitelist of 'authorized' face encodings which can be assigned a name and registered / removed at will.
 - The app then perpetually runs in the background, periodically checking the webcam for all the faces that it can find.
 - Whenever it detects an unauthorized face, it 'locks' - immediately covering the screen and blocking all input until only authorised faces are visible.
 - After detecting someone unauthorised it saves an image of what it's currently seeing every 10 seconds, and every 2 minutes it sends an email containing that image to whomever the device belongs to.
@@ -25,7 +25,7 @@ We used Python for it with some facial recognition libraries and Tkinter for the
 
 ### The whole story
 
-However, that wasn't our first idea. **IF** I'm being honest it was kind of a disaster in the first half. We were initially going to do the first topic, and were stuck between three ideas,
+That wasn't our first idea. **IF** I'm being honest it was kind of a disaster in the first half. We were initially going to do the first topic, and were stuck between three ideas,
 
 1. Napoleonic-era battle simulator, you're given a fixed amount of cavalry / artillery which can move at a certain speed and you need to beat increasingly bigger armies controlled by AI.
 2. Victorian-era trade optimiser: Given some amount of countries with a certain amount of resources (positive is a surplus, negative is a defecit), what is the optimal trade that each country should be doing (e.g: trading 1.5 wood and 0.1 steel for 0.9 coal) for each other country to minimise their defecit using their surplus.
@@ -35,11 +35,11 @@ All of these sound great, but unfortunately they were really abstract and diffic
 
 We decided on doing the Victorian trade optimiser since it seemed the most computer-science-y, and it was one where everyone felt they had an idea of what they could work on and such.
 
-Spoiler, everything went wrong. I was working fine on the project since I knew what the library was, and wrote up a basic main menu, but nobody else knew how to use it. We were kinda just walking on ice, if that makes any sense.
-
 ### Problems
 
-My role was the backend algorithm that actually found the maximum possible trade. My idea was to use game theory. For $n$ resources there's going to be $n^2$ possible trades that could occur between a buyer and a seller, so what's the best possible strategy for the buyer to maximise their earnings?
+Everything went wrong. I was working fine on the project since I knew what the library was, and wrote up a basic main menu, but nobody else knew how to use it. We were kinda just walking on ice, if that makes any sense.
+
+My role was the backend algorithm that actually found the maximum possible trade. My idea was to use game theory. For $n$ resources there's going to be $\mathcal{O}(n^2)$ possible trades that could occur between a buyer and a seller, so what's the best possible strategy for the buyer to maximise their earnings?
 
 That sounds like it would work, but the problem I didn't forsee for some reason is that not only is this incredibly hard to do for an abstract number of resources, we also aren't accounting for all the *other sellers* that the buyers being sold to is actively also trading with, which might influence how it percieves the value of each resource it's buying, which influences what the optimal trade it. It felt like I was both under and over-complicating things. I just couldn't get it to work, and sat at the whiteboard with my mind blank.
 
@@ -51,7 +51,7 @@ Of course, by then it was too late and we had fully pivoted to the privacy app i
 
 ### Fin.
 
-The other projects showcased were also really, really great and funny.
+The other projects showcased were also really, really great (and funny).
 
 My particular favourite (and I believe what won first place in theme 1.) is a group of people that wrote an equivalent of the SEAtS app (an app the university uses to track attendance to lectures by having you write a unique code generated per lecture as proof of attendance, easily bypassed though since someone can just write the code in a groupchat).
 
