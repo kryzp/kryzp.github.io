@@ -7,7 +7,7 @@ I recently watched [this](https://www.youtube.com/watch?v=0ebPkjqV7jE) video by 
 
 The basic idea is that you create a triangular mesh of points, with the edges being ideal springs (ones which abide Hookes' Law) that slowly reduce their natural length over time until they hit a minimum natural length, to simulate drying. This is called a "quasistatic" simulation because it is assumed to happen so slowly that all inertial effects are negligible. To make sure all springs don't just all break at once, we slightly vary the spring constant and breaking tensions per spring to emulate microscopic impurities.
 
-### Model Definition
+# Model Definition
 
 Each point has a position $\mathbf{x}$, velocity $\mathbf{v}$, sum of forces $\mathbf{F}$, mass $m$, and a toggle to determine if it's fixed or not.
 
@@ -19,13 +19,13 @@ Finally the simulation itself has a couple of parameters,
  - Shrinking rate $s$
  - Bound values for $k$ and $\varepsilon_T$ when randomly assigning them to springs
 
-### Creating the mesh
+# Creating the mesh
 
 Since the mesh is perfectly regular we don't need to use any super complicated triangulation libraries or anything. Instead, I just create a regular rectanular mesh except each layer the direction of the diagonal edge gets flipped. Then every other layer just gets shifted half the `dx` to the right.
 
 {{< image src="/assets/img/crack_propogation_mesh.png" position="center" style="border-width: 1px; width: 500px;" >}}
 
-### Simulation
+# Simulation
 
 First, we go through all springs and apply their forces to the connected points. To do this, we calculate the length $\ell$ between the two connected points, and then calculate the strain as,
 
@@ -59,7 +59,7 @@ $$
 
 Notice that since this is a quasistatic simulation we don't account for inertial effects (we assume acceleration is negligible) so acceleration is never directly kept track of.
 
-### Summary
+# Summary
 
 I wrote it in C++ using SFML and the whole thing fits into a couple screens of code. There's plenty more that could be done (e.g: using GPGPU for simulation, rendering with instancing, etc...) but I'm going to move on from here.
 

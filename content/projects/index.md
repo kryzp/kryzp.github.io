@@ -76,10 +76,10 @@ It's literally just Tetris.
 ---
 
 ### [Small projects that don't justify their own repos](https://github.com/kryzp/small-projects)
- - Conways Game of Life
- - 2048
- - A* Algorithm Visualised
- - Towers of Hanoi recursive solution
- - Minimum Spanning Tree via Prim's Algorithm
- - Colour image to ASCII converter
- - BrainFuck interpreter written in C
+- Conways Game of Life
+- 2048
+- A* Algorithm Visualised
+- Towers of Hanoi recursive solution
+- Minimum Spanning Tree via Prim's Algorithm
+- Colour image to ASCII converter
+- BrainFuck interpreter written in C

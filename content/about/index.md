@@ -4,14 +4,23 @@ title: About
 
 Ahoj!
 
-My name is Kryštof Przeczek. I've always been passionate about mathematics, computer science, algorithms, physics, graphics, etc... since a very young age. So far, I've worked on various programming projects (most of which you can see over at my [GitHub](https://github.com/kryzp), though unfortunately some have been lost to time).
+My name is Kryštof Przeczek. I am currently a Computer Science student studying in the UK. This is my blog where I talk about random things that I find interesting or cool[^1], so thanks for visiting!
 
-I also really enjoy doing graphics breakdowns and write-ups on computer graphics and physics simulation.
+I've worked on various programming projects (most of which you can see over at my [GitHub](https://github.com/kryzp), though unfortunately some have been lost to time).
 
-Other than that, I like sketching landscapes, tanks, animals (birds especially), playing my guitar, playing poker, talking about how amazing The Last of Us is, or simply [listening to music](/about/music/index.md). I also like just building stuff, like when I built my own crossbow.
+My topics of interest include:
 
-As for the name of the blog, I just really love mapgies, and the number 428 just seemed... right?
+- Game Development
+- Physics Simulation
+- Rendering / Graphics Programming
+- Sketching Landscapes, Military Hardware and Animals (birds, especially)
+- Poker
+- Playing Guitar
+- [Music](/about/music/)
+- Building cool stuff (like when I [built my own crossbow](/posts/how-i-built-a-crossbow/))
 
 Feel free to contact me at [kprzeczek4@gmail.com](mailto:kprzeczek4@gmail.com).
 
 [Download CV](cv.pdf)
+
+[^1]: Views expressed are my own.

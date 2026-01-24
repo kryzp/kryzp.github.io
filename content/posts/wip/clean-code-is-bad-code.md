@@ -4,7 +4,7 @@ date: 2025-03-27
 draft: true
 ---
 
-Today, a video by Casey Muratori (who is an absolute genius by the way, the Handmade hero series is an absolute gold mine) titled ["Clean" Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU) appeared in my recommended, and immediately it struck a chord with me when I remembered my experience with the entire field of computer graphics.
+Today, a video by Casey Muratori titled ["Clean" Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU) appeared in my recommended, and immediately it struck a chord with me when I remembered my experience with the entire field of computer graphics.
 
 So, when I was first doing graphics, my thoughts were that I wanted to make it as general as possible. That way I could nicely support every API with a single exposed interface that you could call functions on and it would map to whatever Vulkan, DirectX 12, Metal, etc... backend was currently implemeneted, so I would only have to implement e.g: one particle system.
 

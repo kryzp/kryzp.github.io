@@ -12,7 +12,7 @@ We eventually settled on the second theme, and built an app focused on tackling 
 
 To cut to the chase: we won second place.
 
-### How did it work
+# How did it work
 
 - We maintain an internal whitelist of 'authorized' face encodings which can be assigned a name and registered / removed at will.
 - The app then perpetually runs in the background, periodically checking the webcam for all the faces that it can find.
@@ -22,7 +22,7 @@ To cut to the chase: we won second place.
 
 We used Python for it with some facial recognition libraries and Tkinter for the UI. The performance was laughably slow ("12 frames per year") due to some poorly written multithreading, but whatever it's a proof of concept.
 
-### The whole story
+# The whole story
 
 That wasn't our first idea. **IF** I'm being honest it was kind of a disaster in the first half. We were initially going to do the first topic, and were stuck between three ideas,
 
@@ -34,9 +34,11 @@ All of these sound great, but unfortunately they were really abstract and diffic
 
 We decided on doing the Victorian trade optimiser since it seemed the most computer-science-y, and it was one where everyone felt they had an idea of what they could work on and such.
 
-### Problems
+# Problems
 
-Everything went wrong. I was working fine on the project since I knew what the library was, and wrote up a basic main menu, but nobody else knew how to use it. We were kinda just walking on ice, if that makes any sense.
+Literally everything went wrong.
+
+I was working fine on the project since I knew what the library was, and wrote up a basic main menu, but nobody else knew how to use it. We were kinda just walking on ice, if that makes any sense.
 
 My role was the backend algorithm that actually found the maximum possible trade. My idea was to use game theory. For $n$ resources there's going to be $\mathcal{O}(n^2)$ possible trades that could occur between a buyer and a seller, so what's the best possible strategy for the buyer to maximise their earnings?
 
@@ -48,7 +50,7 @@ However, I was still super annoyed I couldn't get it to work. It felt like I was
 
 Of course, by then it was too late and we had fully pivoted to the privacy app instead, which was for the better. I really shouldn't have been so insistent and I take most of the blame for us being so off track. That being said, I'm really damn happy that I got the algorithm working eventually haha.
 
-### Fin.
+# Fin.
 
 The other projects showcased were also really, really great (and funny).
 
