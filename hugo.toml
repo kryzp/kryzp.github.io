@@ -20,7 +20,6 @@ summaryLength = 0
 [params]
   math = true
   contentTypeName = "posts"
-  showMenuItems = 2
   fullWidthTheme = false
   centerTheme = true
   #readingTime = true

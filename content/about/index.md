@@ -16,7 +16,7 @@ My topics of interest include:
 - Sketching Landscapes, Military Hardware and Animals (birds, especially)
 - Poker
 - Playing Guitar
-- [Music](/about/music/)
+- [Music](/music/)
 - Building cool stuff (like when I [built my own crossbow](/posts/how-i-built-a-crossbow/))
 
 Feel free to contact me at [kprzeczek4@gmail.com](mailto:kprzeczek4@gmail.com).
