@@ -49,7 +49,9 @@ $$
 
 Now we can apply boundary condition 1. (again) and solve for $C_1$, where we find that:
 
-$C_1 = -\frac{qL^2}{12}$
+$$
+C_1 = -\frac{qL^2}{12}
+$$
 
 So finally we find,
 
