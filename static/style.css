@@ -204,9 +204,11 @@ input[type="radio"]:checked {
 
 img {
   display: block;
-  max-width: 100%;
+  margin: 0 auto;
+  max-width: 75%;
   border: 8px solid var(--accent);
   border-radius: var(--radius);
+  border-width: 0px;
   padding: 8px;
   overflow: hidden;
 }

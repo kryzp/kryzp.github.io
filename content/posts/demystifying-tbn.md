@@ -17,7 +17,7 @@ Similarly, here we are creating a basis describing what the local "tangent space
 
 And that's really the way I think people should look at this matrix, it's a mathematical 'rosetta stone'. It "translates" the alien tangent space language into our readable world space language. Of course, tangent space is pretty understandable, so I wouldn't go as far as to call it 'alien', but you get my point.
 
-{{< image src="/assets/img/tbn_sphere.png" position="center" style="border-width: 1px; width: 500px;" >}}
+![](/assets/img/tbn_sphere.png)
 
 I want to stress now that there is a reason why model importers like **[Assimp](https://assimp.org/)**, when told to `aiProcess_CalcTangentSpace`, generate all three components of the TBN matrix for each vertex. While yes, you can technically calculate the third component by just computing the cross product of the first two, this doesn't gurantee that the third component will point in the direction of increasing UV, which is a really useful property to have.
 

@@ -13,7 +13,7 @@ After spending an embarrassingly large chunk of my day banging my head against a
 
 We have a uniformally distributed load $q$ along a beam of length $L$,
 
-{{< image src="/assets/img/beam_derivation.png" position="center" style="border-width: 1px; width: 500px;" >}}
+![](/assets/img/beam_derivation.png)
 
 Our boundary conditions are,
 1. Zero deflection at $x = 0$ and $x = L$, so $y(0) = y(L) = 0$

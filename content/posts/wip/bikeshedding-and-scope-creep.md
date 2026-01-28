@@ -32,15 +32,16 @@ There's nothing inherently wrong about that - some people just preferred making 
 
 Something that frustrated me to no end however was seeing the same people start making tutorials on game development even though they clearly didn't know how to properly code or paint or compose themselves.
 
-- The code was sloppy, slow and intextensible. No effort made to explain principles of code architecture and design to people that would desperately need it. Though a small caveat, at some point game code will just become a mess. There's not really anything you can do, there's no silver bullet entity architecture, editor, renderer, physics engine. The skill lies in controlling the mess and understanding where it's okay to cut corners, and where it isn't.
+- The code was sloppy, slow and intextensible. No effort made to explain principles of code architecture and design to people that would desperately need it.
+	- Though a small caveat, at some point game code will just become a mess. There's not really anything you can do, there's no silver bullet entity architecture, editor, renderer, or physics engine. The skill lies in controlling the mess and understanding where it's okay to cut corners, and where it isn't.
 
-- The art was uninspired, rushed, barely respected pixel boundaries ("mixels") and abused banding. UI elements of completely pixel sizes to the world.
+- The art was uninspired, rushed, barely respected pixel boundaries ("mixels") and abused banding. UI elements of completely pixel sizes to the world that looked out of place, with the cherry on top being consolas text just lazily dumped over it.
 
 - The music would be passionless repeating 8-bit ear-grating melodies without any insteresting counter-melodies or varying instruments or change of key or anything.
 
-I would know this because at the time I myself was learning gamedev, and I would follow these tutorials. AND I would then be pulling my hair out over bugs I didn't understand, or I would try to modify the inventory tutorial I followed only to find it was built around specifically a certain type of item with trivialised properties like "damage" or "healing".
+I know this sounds hateful, but at the time I myself was learning gamedev, and I would follow these tutorials. AND I would then be pulling my hair out over bugs I didn't understand, or I would try to modify the inventory tutorial I followed only to find it was built around specifically a certain type of item with trivialised properties like "damage" or "healing".
 
-I'm not saying there's anything outright wrong with breaking rules, that's what art is all about, but it must be done intentionally. Mixels *can* look good **IF** you know what you're doing, and you *can* get away with sloppy code **IF** you're experienced enough to understand it isn't significant to performance anyway.
+I'm not saying there's anything outright wrong with breaking rules, that's what art is all about, but it must be done intentionally. Mixels *can* look good **IF** you know what you're doing, and you *can* get away with sloppy code **IF** you're experienced enough to understand you can cut corners.
 
 I guess another deceptive part of retro art is that due to its nature it seems easier than regular art. Turns out it's about the same, if not harder in some areas. Any minute change to a pixel can completely change the way you percieve the depth and shape of the artwork. Yet, the same fundamentals about shading, primitives, and colour all still apply.
 
@@ -68,9 +69,11 @@ It seems like an obvious fact, but you shouldn't invest a ton of time into somet
 
 1. You don't know if it would work or look good in practice.
 
-2. Even if it would, would it result in too much work to get functioning regardless? Work that could be put into core gameplay features?
+2. Even if it would, would it result in too much work to get functioning regardless? Work that could be distributed elsewhere?
 
-The key word here is in *practice*. Plenty of things sound amazing in your head, revolutionary even, but they just don't make for a fun experience. Let me be the first to tell you that there is a reason most games have a simplified inventory system that lets you carry around 10 guns, plenty of ammunition, a rocket launcher and enough food to feed a small town, while letting you take two shots to the face for just half your imaginary healthbar which a bandage around the arm fixes lickety-split (looking at you, Bethesda).
+The key word here is *in practice*. Plenty of things sound amazing in your head, revolutionary even, but they just don't make for a fun experience.
+
+Let me be the first to tell you that there is a reason most games have a simplified inventory system that lets you carry around 10 guns, plenty of ammunition, a rocket launcher and enough food to feed a small town, while letting you take two shots to the face for just half your imaginary healthbar which a bandage around the arm fixes lickety-split (looking at you, Bethesda).
 
 That's not to say that doing the opposite isn't a cool idea for a game, but doing that would mean that certain other mechanics wouldn't be fun any more, or maybe just wouldn't work at all. It's all about trade-offs.
 

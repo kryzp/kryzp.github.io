@@ -7,7 +7,7 @@ Recently I tried implementing a fake depth parallax shader. The basic idea I had
 
 First I started by drawing a diagram like this,
 
-{{< image src="/assets/img/subsurface_diagram.png" position="center" style="border-width: 1px; width: 500px;" >}}
+![](/assets/img/subsurface_diagram.png)
 
 What we're looking for is that little offset $\mathbf{u}$.
 
@@ -33,13 +33,13 @@ $$
 
 So our parallax code looks like,
 
-{{< code language="hlsl" open="true" >}}
+```hlsl
 float2 subsurface_parallax(float2 uv, float3 view_dir, float eta, float depth)
 {
 	float2 refracted_view_dir = refract(-view_dir, float3(0.0, 0.0, 1.0), eta);
 	float2 u = depth / refracted_view_dir.z * refracted_view_dir.xy;
 	return uv - u;
 }
-{{< /code >}}
+```
 
 We can then use this to sample our texture with the new UV coordinates as usual.
