@@ -1,7 +1,6 @@
 ---
 title: "Bikeshedding, Scope Creep and Gamedev YouTube"
 date: 2026-01-23
-draft: true
 ---
 
 > Bikeshedding: The futile expenditure of time and energy in discussion of marginal technical issues while avoiding more complex or important issues.

@@ -18,6 +18,6 @@ However, this poses challenges for writing with my left hand because unlike righ
 
 Finally, due to what I can only assume are minute orientation changes between my left and right hand, the line thickness is generally far thinner on my left hand than my right. Combined with the extra resistance, it makes my left handed *fountain pen* cursive has a weird "compressed" look, like someone squished it along the x-axis in photoshop.
 
-You can always take the DaVinci approach and write in reverse from right to left, which I actually have learned how to do, but it doesn't exactly make it easy for others to read your handwriting :/.
+You can always take the Davinci approach and write in reverse from right to left, which I actually have learned how to do, but it doesn't exactly make it easy for others to read your handwriting :/.
 
 Eventually, I decided to just bite the bullet and learn how to write with my right hand. This came with the added benefit that I've now got insurance in case anything happens to either hand thanks to the better fine-motor skills. I'm aware that I'll probably never get "as good" motor skills on my right hand due to the nature of biology... or something. But it's certainly good enough for cursive handwriting since I only really needed to get good at drawing a finite set of symbols at a consistent tolerance and speed.

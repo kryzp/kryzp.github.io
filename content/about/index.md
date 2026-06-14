@@ -21,6 +21,6 @@ My topics of interest include:
 
 Feel free to contact me at [kprzeczek4@gmail.com](mailto:kprzeczek4@gmail.com).
 
-[Download CV](cv.pdf)
+[Get my CV here](cv.pdf)
 
 [^1]: Views expressed are my own.
