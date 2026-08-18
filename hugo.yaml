@@ -47,7 +47,7 @@ menu:
 
 params:
   description: "My blog!"
-  footer: "Socials :: [Github](https://github.com/kryzp) | [BlueSky](https://bsky.app/profile/kryzp4.bsky.social)"
+  footer: "Socials :: [GitHub](https://github.com/kryzp) | [LinkedIn](https://www.linkedin.com/in/krystof-przeczek) | [BlueSky](https://bsky.app/profile/kryzp4.bsky.social)"
 
 security:
   allowContent: ['.*']

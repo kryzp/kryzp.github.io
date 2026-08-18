@@ -14,8 +14,13 @@ body {
   font-size: 15px;
 }
 
-.menu { padding: 0; }
-.menu li { display: inline-block; }
+.menu {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  list-style: none; 
+}
 
 .article-meta, .menu a {
   text-decoration: none;
@@ -24,9 +29,18 @@ body {
   border-radius: 5px;
 }
 
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
+.menu, .article-meta, footer {
+  text-align: center;
+}
+
+.title {
+   font-size: 1.1em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 hr {
   border-style: dashed;
   color: #ddd;
