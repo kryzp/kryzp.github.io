@@ -1,6 +1,8 @@
 ---
 title: "Welcome back, C!"
-date: 2025-08-13
+date: 0
+categories:
+  - Programming
 draft: true
 ---
 

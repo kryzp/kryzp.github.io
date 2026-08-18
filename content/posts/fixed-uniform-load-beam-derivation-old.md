@@ -1,6 +1,10 @@
 ---
 title: "Fixed Uniform Load Beam Derivation, circa. 2023"
 date: 2025-03-25
+categories:
+  - Physics
+  - Engineering
+  - Maths
 ---
 
 (This is an old text written around 2023.)

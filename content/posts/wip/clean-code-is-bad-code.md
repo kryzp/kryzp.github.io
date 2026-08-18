@@ -1,6 +1,8 @@
 ---
 title: "Clean code is (usually) bad code (in graphics, anyway)"
-date: 2025-03-27
+date: 0
+categories:
+  - Programming
 draft: true
 ---
 

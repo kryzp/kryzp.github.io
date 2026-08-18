@@ -1,11 +1,11 @@
 ---
 title: "A Brief Tour of Game Engines"
 date: 2026-01-23
+description: "A while ago I gave a talk on game engines at my universty's game development society, and I figure it would probably make a good post too so here we are. I'm by no means an expert on game engines or anything this was just a casual talk so apologies if there are any errors."
+categories:
+  - Programming
+  - Game Dev
 ---
-
-A while ago I gave a talk on game engines at my universty's game development society, and I figure it would probably make a good post too so here we are.
-
-I'm by no means an expert on game engines or anything this was just a casual talk so apologies if there are any errors.
 
 # What are Game Engines?
 
@@ -75,6 +75,7 @@ The extra marketability is great because game engines are incredibly difficult t
 Gamers like to blame arbitrary "game engines" for terrible games, without taking into consideration what I said before:
 
 ![](/assets/img/blaming_engine_1.png)
+
 ![](/assets/img/blaming_engine_2.png)
 
 Naughty Dog doesn't have to make a game engine that supports every game possible under the sun, but Epic Games does. You simply can't have your cake and eat it too.
@@ -116,19 +117,22 @@ Engines are typically organized into "tiers" or "layers":
 - TOOLS FRAMEWORK
 	- Level editor
 	- Asset pipeline
+	- Built above everything else, including game code
 - GAME CODE
 	- Game-specific behaviour
 - CORE
 	- High-level rendering code (particles, materials, ...)
 	- Physics
 	- Entities
+	- What people think of when they think of a game engine "subsystem"
 - PIGS (Platform-Independent Game Systems)
 	- Graphics API abstraction layer
-	- Input management
+	- Higher level input processing
 - OS
 	- Registering the window
 	- Event handling
-	- Code varies depending on the platform.
+	- Input polling
+	- Code heavily varies depending on the platform
 
 I recommend watching / listening to [this](https://www.youtube.com/watch?v=gpINOFQ32o0) talk by Jason Gregory that talks about how Naughty Dog develops their games.
 

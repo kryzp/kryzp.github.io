@@ -1,6 +1,8 @@
 ---
 title: "Victorian-Era Trade Optimiser Algorithm"
 date: 2025-03-24
+categories:
+  - Programming
 ---
 
 This is a follow-up explaining how my trade optimiser algorithm written in my [first hackathon]({/posts/first-hackathon/) works... roughly.

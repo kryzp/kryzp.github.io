@@ -1,6 +1,10 @@
 ---
 title: "Screen Space Compute Particles based on Naughty Dog SigGraph"
-date: 2025-03-28
+date: 0
+categories:
+  - Graphics
+  - Programming
+  - Simulation
 draft: true
 ---
 

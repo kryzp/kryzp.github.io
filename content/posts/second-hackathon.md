@@ -1,6 +1,9 @@
 ---
 title: "Second Hackathon"
 date: 2026-06-14
+categories:
+  - Events
+  - Programming
 ---
 
 A couple months ago me and my friends participated in our second major hackathon: SotonHack '26.

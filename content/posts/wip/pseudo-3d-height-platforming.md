@@ -1,6 +1,9 @@
 ---
 title: "2.5D collision height map system"
-date: 2025-03-26
+date: 0
+categories:
+ - Programming
+ - Game Dev
 draft: true
 ---
 

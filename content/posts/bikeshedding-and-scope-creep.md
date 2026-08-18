@@ -1,5 +1,8 @@
 ---
 title: "Bikeshedding, Scope Creep and Gamedev YouTube"
+categories:
+  - Programming
+  - Thoughts
 date: 2026-01-23
 ---
 

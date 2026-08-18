@@ -1,9 +1,6 @@
 ---
-title: Projects
----
-
-This is a sort-of complete list of things I'd label as projects. The more "notable" things are also on my CV.
-
+title: "Projects"
+description: "This is a sort-of complete list of coding experiments I'd label as projects. The more 'notable' ones are also on my CV."
 ---
 
 ### [Magpie](https://github.com/kryzp/magpie)

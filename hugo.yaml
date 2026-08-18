@@ -1,0 +1,73 @@
+baseurl: "https://kryzp.github.io/"
+locale: "en-us"
+title: "428 magpies"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: Posts
+      url: ""
+      weight: 1
+
+    - name: About
+      url: "about/"
+      weight: 2
+
+    - name: Projects
+      url: "projects/"
+      weight: 3
+
+    - name: Resources
+      url: "resources/"
+      weight: 4
+
+    - name: Frame Breakdowns
+      url: "framebreakdowns/"
+      weight: 5
+
+    - name: Categories
+      url: "categories/"
+      weight: 6
+
+    - name: Tags
+      url: "tags/"
+      weight: 7
+
+    - name: RSS
+      url: "index.xml"
+      weight: 8
+
+params:
+  description: "My blog!"
+  footer: "Socials :: [Github](https://github.com/kryzp) | [BlueSky](https://bsky.app/profile/kryzp4.bsky.social)"
+
+security:
+  allowContent: ['.*']
+
+markup:
+  highlight:
+    style: github
+    codeFences: true
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)

@@ -1,6 +1,9 @@
 ---
 title: "Developing my cursive handwriting"
-date: 2025-05-15
+date: 0
+categories:
+  - Thoughts
+  - Art
 draft: true
 ---
 

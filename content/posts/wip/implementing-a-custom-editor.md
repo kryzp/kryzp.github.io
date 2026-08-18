@@ -1,6 +1,8 @@
 ---
 title: "Implementing a custom level editor for my 2D game"
-date: 2025-03-26
+date: 0
+categories:
+  - Programming
 draft: true
 ---
 

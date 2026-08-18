@@ -1,8 +1,7 @@
 ---
-title: Resources
+title: "Resources"
+description: "Here's a list of resources I've aggregated over time on various topics."
 ---
-
-Here's a list of resources I've aggregated over time on various topics.
 
 # General
 

@@ -1,6 +1,9 @@
 ---
 title: "Crack Propogation Simulation"
 date: 2025-06-01
+categories:
+  - Physics
+  - Simulation
 ---
 
 I recently watched [this](https://www.youtube.com/watch?v=0ebPkjqV7jE) video by Alexander Sannikov which was part of a larger Path of Exile rendering talk and found it pretty interesting. I figured that as a small weekend project I'll try to implement something similar because I'm bored.

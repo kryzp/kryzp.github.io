@@ -1,8 +1,7 @@
 ---
-title: Favourite Music
+title: "Favourite Music"
+description: "Here's some of my favourite music!"
 ---
-
-None of these lists are in any particular order.
 
 ### Favourite Video Game OSTs
 - Last of Us 1 & 2 ('the path (a new beginning)' and 'the choice' especially)
@@ -10,9 +9,12 @@ None of these lists are in any particular order.
 - Minecraft
 - Outer Wilds
 - Metro 2033, Last Light and Exodus
+- Frostpunk
+- Firewatch
 
 ### Favourite Movie Scores
-- How to Train Your Dragon (ok this one is confidently #1)
+- How to Train Your Dragon
+- Pirates of the Carribean
 
 ### Favourite Artists
 - Kabát
@@ -31,6 +33,5 @@ None of these lists are in any particular order.
 - Enya
 - We Lost the Sea
 - Bring Me The Horizon
-- Punk Floid
 - Guns N' Roses
-- Tři Sestry
+- Led Zeppelin

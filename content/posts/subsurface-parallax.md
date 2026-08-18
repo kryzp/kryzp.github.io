@@ -1,6 +1,9 @@
 ---
 title: "On Subsurface Parallax Shading"
 date: 2025-03-22
+categories:
+ - Graphics
+ - Maths
 ---
 
 Recently I tried implementing a fake depth parallax shader. The basic idea I had is to make it look like the texture given is some depth $D$ units below the surface. The surface itself could vary in refractive index, maybe to make it look like it's encased in glass or resin.

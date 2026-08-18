@@ -1,6 +1,9 @@
 ---
 title: "First Hackathon"
 date: 2025-03-24
+categories:
+  - Events
+  - Programming
 ---
 
 So last weekend I had the wonderful opportunity to participate in SotonHack 2025 with some of my friends, a 24-hour long hackathon hosted by my university's Electronics and Computer Science department. We got to pick between two themes,

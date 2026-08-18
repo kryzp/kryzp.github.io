@@ -1,6 +1,9 @@
 ---
 title: "Volumetric Effects"
-date: 2025-05-07
+date: 0
+categories:
+  - Graphics
+  - Maths
 draft: true
 ---
 

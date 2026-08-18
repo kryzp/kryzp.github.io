@@ -1,6 +1,8 @@
 ---
 title: "How The Last of Us Changed Storytelling"
 date: 2025-03-30
+categories:
+  - Thoughts
 ---
 
 A while ago I wrote a script for a video I wanted to make about The Last of Us. This was right after finishing my first playthrough, and I think it tells a lot about what I think about the game if within the first week I decide that I'm going to write and record a 30 minute long video about how much I love the game.
