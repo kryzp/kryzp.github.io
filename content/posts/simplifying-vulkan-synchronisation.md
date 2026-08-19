@@ -59,7 +59,7 @@ void WaitUntil(TimelinePoint point)
 	G_VK_CHECK(vkWaitSemaphores(GetVkDeviceSomehow(),
 								&wait_info,
 								UINT64_MAX),
-								"Failed to wait on timeline semaphore");
+			   "Failed to wait on timeline semaphore");
 }
 ```
 
@@ -85,7 +85,7 @@ TimelineSemaphore CreateTimelineSemaphore(u64 value)
 								 &timeline_semaphore_create_info,
 								 NULL,
 								 &vk_semaphore),
-								 "Failed to create timeline semaphore.");
+			   "Failed to create timeline semaphore.");
 
 	TimelineSemaphore semaphore = {0};
 	semaphore.vk_handle = vk_semaphore;
