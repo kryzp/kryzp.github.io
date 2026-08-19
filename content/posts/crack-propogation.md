@@ -48,16 +48,10 @@ $$
 
 And then add the corresponding vectors to the force accumulator $\mathbf{F}$ for both points.
 
-Then, we shrink the springs natural length to emulate drying,
+Let's introduce a new "drying" function $D(l)$, which is meant to model the rate at which shrinking occurs. We'll also impose the restriction that the derivative must be zero when the length is less than or equal to the minimum possible length of the spring, given by $\alpha L_0$:
 
 $$
-L_{n+1} = L_n - D(L_n) \cdot s \Delta{t}
-$$
-
-We have a function $D(l)$ which is meant to model the rate at which shrinking occurs. It must be zero when the length is equal to the minimum possible length of the spring, given by $\alpha L_0$.
-
-$$
-D(\alpha L_0) = 0
+\frac{\mathrm d L}{\mathrm d t} = -sD(L), \ \left.\frac{\mathrm d L}{\mathrm d t}\right|_{L=\alpha L_0} = 0
 $$
 
 For my simulation I went with a linear model:
@@ -67,6 +61,9 @@ D(l) = l - \alpha L_0
 $$
 
 Though I'm curious as to what other forms of patterns might emerge if we were to use a different model. Food for thought.
+
+Now we can just shrink the length of our springs by doing $L_{n+1} = L_n + \frac{\mathrm d L}{\mathrm d t} \cdot \Delta{t}$.
+
 
 Finally, we iterate through all points (that aren't fixed) and move them using semi-implicit Euler,
 
@@ -78,7 +75,7 @@ $$
 \end{aligned}
 $$
 
-Notice that since this is a quasistatic simulation we don't account for inertial effects (we assume acceleration is negligible) so acceleration is never directly kept track of.
+Notice that since this is a quasistatic simulation we don't account for inertial effects (we assume acceleration is negligible) so acceleration is never directly kept track of and reset to zero each tick.
 
 # Summary
 

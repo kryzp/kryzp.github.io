@@ -1,5 +1,5 @@
 ---
-title: "Implementing a graphics capability system"
+title: "Implementing a Vulkan Hardware Capability System"
 date: 2026-08-19
 categories:
  - Graphics
