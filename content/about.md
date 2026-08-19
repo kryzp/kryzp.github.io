@@ -20,8 +20,6 @@ My topics of interest include:
 - [Music](/music/)
 - Building [cool stuff](/posts/how-i-built-a-crossbow/)
 
-Feel free to contact me at [kprzeczek4@gmail.com](mailto:kprzeczek4@gmail.com).
-
-[Get my CV here](/assets/cv.pdf)
+[Get my CV here](/assets/cv.pdf).
 
 [^1]: Views expressed are my own.
