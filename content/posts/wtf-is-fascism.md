@@ -1,5 +1,5 @@
 ---
-title: "WTF even is Fascism?"
+title: "WTF is Fascism?"
 date: 2026-08-18
 categories:
   - Thoughts
@@ -12,7 +12,7 @@ categories:
 
 Derived from the word "fasces", Fascism places emphasis on its strength through unity. It is also one of, if not the most, destructive political ideologies ever created by mankind. This is known; it is fact. As true as the sun rising in the morning and setting in the evening.
 
-> "Fascism is a genus of political ideology whose mythic core in its various permutations is a palingenetic\* form of populist ultra-nationalism" ~ Roger Griffin
+> "Fascism is a genus of political ideology whose mythic core in its various permutations is a palingenetic\* form of populist ultra-nationalism." ~ Roger Griffin
 
 > \*Palingenetic: "Rebirth of a Nation", Revolution
 
