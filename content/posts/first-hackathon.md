@@ -56,7 +56,7 @@ That sounds like it would work, but the problem I didn't forsee for some reason 
 
 I'll spare you the details but at around 10pm we ultimately just decided to move away from the Victorian trade optimiser since I couldn't get the algorithm to work, which was for the better anyway since more of us were familiar with Python, TKinter, and facial recognition libraries.
 
-However, I was still super annoyed I couldn't get it to work. It felt like I was just missing one piece of the puzzle and it would all fall into place. Well, eventually out of sheer frustration, I managed to get the Victorian trade optimiser algorithm working using Monte Carlo sampling. [Here's how it works](/posts/victorian-trade-algorithm/).
+However, I was still super annoyed I couldn't get it to work. It felt like I was just missing one piece of the puzzle and it would all fall into place. Well, eventually out of sheer frustration, I managed to get the Victorian trade optimiser algorithm working using Monte Carlo sampling. [Here's how it works](/posts/victorian-trade-algorithm).
 
 Of course, by then it was too late and we had fully pivoted to the privacy app instead, which was for the better. I really shouldn't have been so insistent and I take most of the blame for us being so off track. That being said, I'm really damn happy that I got the algorithm working eventually haha.
 
