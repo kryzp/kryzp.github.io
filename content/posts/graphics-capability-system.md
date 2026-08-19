@@ -128,8 +128,6 @@ ResolvedFeatures FeaturesResolve(Arena *arena,
 								 Capabilities detected,
 								 const Requirements *requirements,
 								 LOG_Channel log_channel);
-
-u32 FeaturesScore(Features enabled, const Requirements *requirements);
 ```
 
 
@@ -423,25 +421,6 @@ internal ResolvedFeatures FeaturesResolve(Arena *arena,
 	ScratchRelease(&scratch);
 	return result;
 }
-
-internal u32 FeaturesScore(Features enabled, const Requirements *requirements)
-{
-	u32 score = 0;
- 
-	for (u32 i = 0; i < requirements->feature_count; i++)
-	{
-		Feature *feature = &requirements->features[i];
- 
-		if (feature->tier == FeatureTier_Unused)
-			continue;
-
-		if (enabled.set[feature->type])
-			score += 1;
-	}
- 
-	return score;
-}
-
 ```
 
 
