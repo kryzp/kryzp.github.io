@@ -5,7 +5,7 @@ categories:
   - Programming
 ---
 
-This is a follow-up explaining how my trade optimiser algorithm written in my [first hackathon]({/posts/first-hackathon/) works... roughly.
+This is a follow-up explaining how my trade optimiser algorithm written in my [first hackathon](/posts/first-hackathon) works... roughly.
 
 > Given some amount of countries with a certain amount of resources (positive is a surplus, negative is a defecit), what is the optimal trade that each country should be doing (e.g: trading 1.5 wood and 0.1 steel for 0.9 coal) for each other country to minimise their defecit using their surplus.
 
