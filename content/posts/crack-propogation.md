@@ -48,7 +48,7 @@ $$
 
 And then add the corresponding vectors to the force accumulator $\mathbf{F}$ for both points.
 
-Let's introduce a new "drying" function $D(l)$, which is meant to model the rate at which shrinking occurs. We'll also impose the restriction that the derivative must be zero when the length is less than or equal to the minimum possible length of the spring, given by $\alpha L_0$:
+Let's introduce a new "drying" function $D(l)$, which is meant to model the rate at which shrinking occurs. We'll also impose the restriction that the derivative must be zero when the length is equal to the minimum possible length of the spring (given by $\alpha L_0$), and positive when less. This is to make sure it can't be "compressed" either:
 
 $$
 \frac{\mathrm d L}{\mathrm d t} = -sD(L), \ \left.\frac{\mathrm d L}{\mathrm d t}\right|_{L=\alpha L_0} = 0
