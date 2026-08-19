@@ -247,9 +247,9 @@ const CapabilityInfo g_caps_infos[] = {
 	}
 };
 
-internal b32 CapabilitiesExtensionListContains(const char **list,
-											   u32 count,
-											   const char *name)
+b32 CapabilitiesExtensionListContains(const char **list,
+									  u32 count,
+									  const char *name)
 {
 	for (u32 i = 0; i < count; i++)
 	{
@@ -261,9 +261,9 @@ internal b32 CapabilitiesExtensionListContains(const char **list,
 }
 
 
-internal b32 CapabilitiesExtensionAvailable(VkExtensionProperties *available,
-											u32 available_count,
-											const char *name)
+b32 CapabilitiesExtensionAvailable(VkExtensionProperties *available,
+								   u32 available_count,
+								   const char *name)
 {
 	for (u32 i = 0; i < available_count; i++)
 	{
@@ -274,9 +274,9 @@ internal b32 CapabilitiesExtensionAvailable(VkExtensionProperties *available,
 	return false;
 }
 
-internal Capabilities CapabilitiesQuery(VkPhysicalDevice physical_device,
-										VkPhysicalDeviceFeatures2 *out_features2,
-										LOG_Channel log_channel)
+Capabilities CapabilitiesQuery(VkPhysicalDevice physical_device,
+							   VkPhysicalDeviceFeatures2 *out_features2,
+							   LOG_Channel log_channel)
 {
 	VkPhysicalDeviceRayTracingPipelineFeaturesKHR rt_pipeline_query = {0};
 	rt_pipeline_query.sType = VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_RAY_TRACING_PIPELINE_FEATURES_KHR;
@@ -307,11 +307,11 @@ internal Capabilities CapabilitiesQuery(VkPhysicalDevice physical_device,
 	return result;
 }
 
-internal ResolvedFeatures FeaturesResolve(Arena *arena,
-										  VkPhysicalDevice physical_device,
-										  Capabilities detected,
-										  const Requirements *requirements,
-										  LOG_Channel log_channel)
+ResolvedFeatures FeaturesResolve(Arena *arena,
+								 VkPhysicalDevice physical_device,
+								 Capabilities detected,
+								 const Requirements *requirements,
+								 LOG_Channel log_channel)
 {
 	ResolvedFeatures result = {0};
 	result.meets_requirements = true;
