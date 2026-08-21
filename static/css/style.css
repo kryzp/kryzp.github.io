@@ -1,3 +1,6 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 body {
   max-width: 800px;
@@ -16,10 +19,16 @@ body {
 
 .menu {
   padding: 0;
+  margin: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 5px;
+  gap: 8px;
   list-style: none; 
+}
+
+.menu li {
+  display: flex;
 }
 
 .article-meta, .menu a {
@@ -85,6 +94,9 @@ table {
   margin: auto;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 table thead th {
@@ -97,4 +109,27 @@ th, td {
 
 thead, tfoot, tr:nth-child(even) {
   background: #eee;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0.75em;
+  }
+
+  .menu {
+    gap: 6px;
+  }
+
+  .menu a {
+    display: block;
+    padding: 8px 12px;
+  }
+
+  .article-meta {
+    padding: 8px;
+  }
+
+  img, iframe, video {
+    max-width: 100%;
+  }
 }
