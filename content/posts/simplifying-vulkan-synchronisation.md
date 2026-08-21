@@ -56,9 +56,9 @@ void WaitUntil(TimelinePoint point)
 	wait_info.pSemaphores = &point.semaphore;
 	wait_info.pValues = &point.value;
 
-	G_VK_CHECK(vkWaitSemaphores(GetVkDeviceSomehow(),
-								&wait_info,
-								UINT64_MAX),
+	VK_CHECK(vkWaitSemaphores(GetVkDeviceSomehow(),
+							  &wait_info,
+							  UINT64_MAX),
 			   "Failed to wait on timeline semaphore");
 }
 ```
@@ -81,10 +81,10 @@ TimelineSemaphore CreateTimelineSemaphore(u64 value)
 
 	VkSemaphore vk_semaphore = VK_NULL_HANDLE;
 
-	G_VK_CHECK(vkCreateSemaphore(GetVkDeviceSomehow(),
-								 &timeline_semaphore_create_info,
-								 NULL,
-								 &vk_semaphore),
+	VK_CHECK(vkCreateSemaphore(GetVkDeviceSomehow(),
+							   &timeline_semaphore_create_info,
+							   NULL,
+							   &vk_semaphore),
 			   "Failed to create timeline semaphore.");
 
 	TimelineSemaphore semaphore = {0};
@@ -235,7 +235,7 @@ TimelinePoint SubmitToGraphics(const CmdBuffer *cmd /*, other params, e.g. extra
 Now using our API looks something like this:
 
 ```c
-G_CmdBuffer cmd = GetCommandBuffer();
+CmdBuffer cmd = GetCommandBuffer();
 
 // Write some commands...
 
